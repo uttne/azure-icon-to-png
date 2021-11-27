@@ -86,7 +86,7 @@ for (let i = 0; i < svgs.length; ++i) {
   const inner = group[1];
   const matrixScale = newSize / oldSize;
   const newSvg =
-    `<svg  xmlns="http://www.w3.org/2000/svg" width="${newSize}" height="${newSize}" viewBox="0 0 ${newSize} ${newSize}"><g transform="matrix(${matrixScale},0,0,${matrixScale},0,0)">` +
+    `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="${newSize}" height="${newSize}" viewBox="0 0 ${newSize} ${newSize}"><g transform="matrix(${matrixScale},0,0,${matrixScale},0,0)">` +
     inner +
     "</g></svg>";
 

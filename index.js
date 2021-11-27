@@ -90,7 +90,6 @@ for (let i = 0; i < svgs.length; ++i) {
     inner +
     "</g></svg>";
 
-  fs.writeFileSync(destPngPath + ".svg", newSvg, { encoding: "utf-8" });
   const buffer = Buffer.from(newSvg, "utf-8");
   sharp(buffer)
     .png()

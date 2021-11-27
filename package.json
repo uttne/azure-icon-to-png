@@ -1,0 +1,11 @@
+{
+  "name": "azure-icon-to-png",
+  "version": "1.0.0",
+  "description": "This script converts an SVG image provided as Azure architecture icons to a PNG image. Generate and use PNG when SVG is not available, such as when you are using a version of Microsoft Office prior to 2016.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "uttne",
+  "license": "MIT"
+}
